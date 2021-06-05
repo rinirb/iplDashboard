@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.team-matches-bg-container {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-matches-bg-rcb {
+  background-color: #a4261d;
+}
+
+.team-matches-bg-kkr {
+  background-color: #5755a7;
+}
+
+.team-matches-bg-kxp {
+  background-color: #d91c1f;
+}
+
+.team-matches-bg-csk {
+  background-color: #f7db00;
+}
+
+.team-matches-bg-rr {
+  background-color: #da237b;
+}
+
+.team-matches-bg-mi {
+  background-color: #13418b;
+}
+
+.team-matches-bg-sh {
+  background-color: #f26d22;
+}
+
+.team-matches-bg-dc {
+  background-color: #4f5db0;
+}
+
+.team-matches-banner {
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.team-matches-match-cards-container {
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.latest-match-bg-container {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  width: 90%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-match-title {
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.latest-match-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    flex-direction: row;
+  }
+}
+
+.latest-match-competing-team-match-details-container {
+  width: 100%;
+  border-bottom: 2px solid #475569;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-competing-team-match-details-container {
+    border: none;
+    width: 60%;
+  }
+}
+
+.latest-match-competing-team-match-details {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.latest-match-competing-team-name {
+  font-size: 25px;
+}
+
+.latest-match-date {
+  font-size: 20px;
+}
+
+.latest-match-details {
+  font-size: 15px;
+}
+
+.latest-match-competing-team-logo-container {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-match-competing-team-logo {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-competing-team-logo {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.latest-match-other-details-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-other-details-container {
+    width: 40%;
+    align-items: flex-end;
+  }
+}
+
+.latest-match-other-details-heading {
+  font-size: 20px;
+}
+
+.latest-match-other-details-description {
+  font-size: 17px;
+}
